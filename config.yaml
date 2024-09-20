@@ -1,0 +1,21 @@
+print_graphs: false
+
+features:
+  - "Length (major axis)"
+  - "Width (minor axis)"
+  - "Thickness (depth)"
+  - "Area"
+  - "Perimeter"
+  - "Roundness"
+  - "Solidity"
+  - "Compactness"
+  - "Aspect Ratio"
+  - "Eccentricity"
+  - "Extent"
+  - "Convex hull(convex area)"
+
+target: "Type"
+
+num_epochs: 10000
+learning_rate: 0.001
+dropout_rate: 0.2
