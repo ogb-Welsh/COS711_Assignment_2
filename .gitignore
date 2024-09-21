@@ -1,3 +1,4 @@
 # Ignore almond_data.csv file
 almond_data.csv
 
+wandb
