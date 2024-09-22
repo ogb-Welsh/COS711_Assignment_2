@@ -1,5 +1,5 @@
 print_graphs: false
-perform_grid_search: false
+perform_grid_search: true
 
 features:
   - "Length (major axis)"
@@ -17,6 +17,6 @@ features:
 
 target: "Type"
 
-num_epochs: 10000
+num_epochs: 100000
 learning_rate: 0.001
 dropout_rate: 0.2
